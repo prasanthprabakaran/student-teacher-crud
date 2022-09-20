@@ -1,0 +1,45 @@
+.box-container{
+    display: flex;
+    resize: vertical;
+    overflow: over;
+}
+.child-box {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: inherit;
+    height: 354px;
+    width: 1400px;
+    border: 2px solid black;
+    /* padding-top: 89px; */
+    background-color: grey;
+    /* padding: 75px; */
+    margin: 9px 75px 75px 75px;
+    resize: vertical;
+    overflow: hidden;
+    justify-content: space-between;
+
+}
+.childrens{
+    flex: 0 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    resize: vertical;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.box-box{
+    background-color: beige;
+    height: 290px;
+    flex: 1 1 auto;
+    border: 1px solid blue ;
+    margin: 10px;
+    width : 20%;
+}
+
+.black-bar{
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid white;
+}
