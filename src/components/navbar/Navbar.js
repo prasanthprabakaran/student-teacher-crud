@@ -8,8 +8,8 @@ import { AppBar, Grid, Toolbar } from "@mui/material";
 const Navbar = () => {
   const [mobile, setMobile] = useState(false);
   return (
-    <AppBar>
-      <Toolbar className="navbar">
+
+      <header className="navbar">
         <Grid container>
         <Link to="/">
           <h3 className="logo">Logo</h3>
@@ -36,8 +36,7 @@ const Navbar = () => {
           {mobile ? <ImCross /> : <FaBars />}
         </button>
         </Grid>
-      </Toolbar>
-    </AppBar>
+      </header>
   );
 };
 

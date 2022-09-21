@@ -1,6 +1,5 @@
 .Home{
     display: flex;
-    margin-top: 20px;
     min-height: 100vh;
 }
 .home-container{
@@ -12,6 +11,9 @@
     width: 100%;
     max-width: 100%!important;
     flex-wrap: wrap;
+    margin-top: 100px;
+
+    /* padding-left: 163px!important; */
 }
 .choose-box{
     padding: 0;
@@ -35,7 +37,7 @@
 .teacher{
     background-color: #E2B84F;
 }
-span{
+#C-heading{
     font-size: 50px;
 }
 .button-class{

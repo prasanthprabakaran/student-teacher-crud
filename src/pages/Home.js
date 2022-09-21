@@ -4,14 +4,17 @@ import "./home.css";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import SchoolIcon from "@mui/icons-material/School";
 import { useNavigate } from "react-router-dom";
+import Sidebar from "../components/sidebar/Sidebar";
+import Navbar from "../components/navbar/Navbar";
 
 const Home = () => {
   const navigate = useNavigate();
   return (
     <div className="Home">
+      <Sidebar/>
       <Container className="home-container">
         <Box className="choose-box student">
-          <span>Student</span>
+          <span id="C-heading">Student</span>
           <Button
             endIcon={<SchoolIcon />}
             variant="contained"
@@ -23,7 +26,7 @@ const Home = () => {
           </Button>
         </Box>
         <Box className="choose-box teacher">
-          <span>Teacher</span>
+          <span id="C-heading">Teacher</span>
           <Button
             endIcon={<AccountCircleIcon />}
             variant="contained"

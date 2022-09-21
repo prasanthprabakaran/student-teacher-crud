@@ -12,12 +12,12 @@ import GroupDance from "./pages/student/groupDance/GroupDance";
 import Classical from "./pages/student/classical/Classical";
 import Concert from "./pages/student/concert/Concert";
 import Drama from "./pages/student/drama/Drama";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/student-dashboard" element={<Student />} />
@@ -35,7 +35,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
-    </div>
+    </>
   );
 }
 

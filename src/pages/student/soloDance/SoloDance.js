@@ -1,5 +1,5 @@
 import React from 'react'
-import Form from '../../../components/navbar/form/Form'
+import Form from '../../../components/form/Form'
 
 const SoloDance = () => {
   return (
