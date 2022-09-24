@@ -8,7 +8,7 @@
   }
   
   main {
-    position: relative;
+    position: absolute;
     margin: var(--header-height) 0 0 0;
     padding: 0 0rem;
     font-size: 1rem;
@@ -66,6 +66,7 @@
     grid-template-columns: max-content max-content;
     column-gap: 2rem;
     padding: 0.5rem 0 0.5rem 1.5rem;
+    align-items: center;
   }
   
   .nav-logo {

@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/navbar/Navbar";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -12,7 +11,6 @@ import GroupDance from "./pages/student/groupDance/GroupDance";
 import Classical from "./pages/student/classical/Classical";
 import Concert from "./pages/student/concert/Concert";
 import Drama from "./pages/student/drama/Drama";
-import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (

@@ -34,24 +34,23 @@ const Sidebar = () => {
                   <span className='nav-link-name'>Dashboard</span>
                 </Link>
                 <Link to='/hotel' className='nav-link'>
-                  <i className='fas fa-hotel nav-link-icon'></i>
-                  <span className='nav-link-name'>Hotel</span>
+                <i className="fa-solid fa-chalkboard-user nav-link-icon"></i>                  <span className='nav-link-name'>Teacher</span>
                 </Link>
                 <Link to='/gallery' className='nav-link'>
-                  <i className='fas fa-image nav-link-icon'></i>
-                  <span className='nav-link-name'>Gallery</span>
+                <i className="fa-solid fa-graduation-cap"></i>
+                  <span className='nav-link-name nav-link-icon'>Student</span>
                 </Link>
                 <Link to='/gallery' className='nav-link'>
-                  <i className='fas fa-dollar-sign nav-link-icon'></i>
-                  <span className='nav-link-name'>Transaction</span>
+                <i className="fa-solid fa-scroll"></i>
+                  <span className='nav-link-name nav-link-icon'>Announcements</span>
                 </Link>
               </div>
             </div>
   
-            <Link to='/logout' className='nav-link'>
+            {/* <Link to='/logout' className='nav-link'>
               <i className='fas fa-sign-out nav-link-icon'></i>
               <span className='nav-link-name'>Logout</span>
-            </Link>
+            </Link> */}
           </nav>
         </aside>
         </main>
